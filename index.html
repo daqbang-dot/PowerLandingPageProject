@@ -46,3 +46,18 @@
 
 </body>
 </html>
+<a href="https://toyyibpay.com/LandingPagePower" class="btn-primary">
+    Pay RM200 via FPX (Maybank2u, CIMB, etc.)
+</a>
+<form action="https://toyyibpay.com/index.php/api/createBill" method="POST">
+  <input type="hidden" name="billCategoryCode" value="YOUR_CATEGORY_CODE">
+  
+  <input type="hidden" name="billName" value="Custom Landing Page Service">
+  <input type="hidden" name="billDescription" value="One-page HTML/CSS Site">
+  <input type="hidden" name="billPriceSetting" value="1"> <input type="hidden" name="billPayorInfo" value="1"> <input type="hidden" name="billAmount" value="20000"> 
+  
+  <input type="hidden" name="billReturnUrl" value="https://yourusername.github.io/thanks.html">
+  <input type="hidden" name="billCallbackUrl" value="https://yourusername.github.io/callback">
+
+  <button type="submit" class="btn-primary">Pay via FPX Online Banking</button>
+</form>
